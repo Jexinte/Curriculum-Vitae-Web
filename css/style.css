@@ -1,0 +1,196 @@
+#about {
+    background-color: #9D4F4F;
+    padding: 5em 3em;
+    color: white;
+}
+
+#about-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+}
+
+#about p {
+    font-size: 1.5em;
+}
+
+.detail-paragraph-2 {
+    line-height: 2.6em;
+}
+
+.h2, h3 {
+    text-decoration: underline;
+    text-decoration-thickness: 0.12em;
+}
+
+.h2 {
+    padding-bottom: 2em;
+}
+
+
+#training-courses {
+    background-color: white;
+    padding: 5em 3em;
+    transition: all ease-in 700ms;
+}
+
+#training-courses .box-paragraph {
+    align-self: center;
+}
+
+#training-courses img {
+    height: 200px;
+    width: 200px;
+}
+
+#training-courses .inner-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+#experiences {
+    background-color: #9D4F4F;
+    padding: 5em 3em;
+    color: white;
+    transition: all ease-in 700ms;
+}
+
+#experiences .inner-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+#experiences .position-name {
+    align-self: center;
+}
+
+#experiences .inner-box img {
+    height: 100px;
+    width: 250px;
+}
+
+#skills {
+    background-color: white;
+    padding: 5em 3em;
+    color: black;
+    transition: all ease-in 700ms;
+}
+
+#skills .boxes {
+    display: flex;
+    justify-content: center;
+    gap: 2.5em;
+    flex-wrap: wrap;
+}
+
+#skills img {
+    height: 150px;
+    width: 200px;
+}
+
+#languages {
+    background-color: #9D4F4F;
+    padding: 5em 3em;
+    color: white;
+    transition: all ease-in 700ms;
+}
+
+
+#languages .boxes {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    flex-wrap: wrap;
+}
+
+#social-network {
+    background-color: white;
+    padding: 5em 3em;
+    transition: all ease-in 700ms;
+}
+
+#social-network .boxes {
+    display: flex;
+    justify-content: center;
+    gap: 2.5em;
+    flex-wrap: wrap;
+}
+
+#social-network img {
+    height: 200px;
+    width: 200px;
+}
+
+#footer {
+    background-color: #9D4F4F;
+    padding: 1em 3em;
+    color: white;
+}
+
+#footer-details p {
+    padding-top: 1em;
+}
+
+@media screen and (max-width: 992px) {
+
+    #about {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    #training-courses .boxes .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 3em;
+        transition: all ease-out 700ms;
+    }
+
+    #training-courses .inner-box {
+        flex-direction: column;
+        align-items: center;
+        transition: all ease-out 700ms;
+    }
+
+    #training-courses h3 {
+        text-align: center;
+        padding-bottom: .8em;
+        transition: all ease-out 700ms;
+    }
+
+    #training-courses .box-paragraph {
+        text-align: center;
+        transition: all ease-out 700ms;
+    }
+
+    #experiences-details {
+        display: flex;
+        flex-direction: column;
+        transition: all ease-out 700ms;
+    }
+
+    #experiences-details h3 {
+        text-align: center;
+        transition: all ease-out 700ms;
+    }
+
+    #experiences-details .boxes {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        transition: all ease-out 700ms;
+    }
+
+    #experiences-details .boxes .inner-box {
+        flex-direction: column;
+        transition: all ease-out 700ms;
+    }
+
+    #experiences-details .boxes .inner-box a {
+        text-align: center;
+        transition: all ease-out 700ms;
+    }
+
+
+}
