@@ -123,13 +123,33 @@
 }
 
 #footer {
-    background-color: #9D4F4F;
+    background-color: white;
     padding: 1em 3em;
-    color: white;
+    color: black;
 }
 
 #footer-details p {
     padding-top: 1em;
+}
+
+#contact {
+    background-color: #9D4F4F;
+    padding: 5em 3em;
+    color: black;
+    transition: all ease-in 700ms;
+}
+
+#contact h2 {
+    text-transform: uppercase;
+    transition: all ease-in 700ms;
+}
+
+#contact a {
+    color: white;
+    display: block;
+    font-size: 2em;
+    text-transform: uppercase;
+    transition: all ease-in 700ms;
 }
 
 @media screen and (max-width: 992px) {
@@ -192,5 +212,13 @@
         transition: all ease-out 700ms;
     }
 
+    #contact a {
+        font-size: 1em;
+        transition: all ease-out 700ms;
+    }
+    #contact h2 {
+        font-size: 1em;
+        transition: all ease-out 700ms;
+    }
 
 }
